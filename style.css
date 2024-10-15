@@ -1,0 +1,16 @@
+* {
+    font-family: sans-serif;
+    background-color: bisque;
+}
+
+.header, .item {
+    text-align: center;
+}
+
+.header {
+    text-decoration: underline;
+}
+
+.item {
+    list-style-type: none;
+}
