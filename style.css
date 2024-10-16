@@ -1,19 +1,42 @@
 * {
     margin: 0;
     padding: 0;
+    border: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    background-color: bisque;
-}
-
-.header, .item {
-    text-align: center;
+    background-color: #ffe4c4;
 }
 
 .header {
-    text-decoration: underline;
+    height: 50px;
+    width: 300px;
+    margin: 20px auto;
+    border: 5px solid #f7ce9c;
+    text-align: center;
+}
+
+.food-pic {
+    height: 200px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
 }
 
 .item {
-    list-style-type: none;
+    height: 300px;
+    width: 300px;
+    border: 5px solid #f7ce9c;
+    display: inline-block;
 }
+
+a {
+    display: block;
+    text-align: center;
+    padding: 25px;
+}
+
+.container {
+    width: auto;
+    margin: 100px auto 0;
+}
+
